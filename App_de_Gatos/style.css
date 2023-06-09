@@ -1,0 +1,115 @@
+h3{ /*h3 vendria a ser un selector(afecta a todo el que tenga eso)*/
+    color: green;
+    font-family:'Roboto', sans-serif;
+}
+
+p{
+    color: purple;   
+}
+
+/*Selector universal ejemplo
+*{
+    color: purple;
+}
+Hace que seleccione todo el texto*/
+
+/*Supongamos que queremos darle un color a la unordered list (ul)
+y a la ordered list (ol) , el mismo color:
+ul{
+    color: chocolate;
+}
+ol{
+    color: chocolate;
+}
+
+se repetiria código
+
+Con el selector de clase se puede simplificar de la siguiente manera:*/
+
+.lista-de-gatos{
+    color:chocolate;
+    font-family:  sans-serif;
+}
+
+h2 {
+    font-size:40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/*si queremos lo siguiente
+p {
+    font-size:20px;
+}
+
+ul {
+    font-size:20px;
+}
+
+ol {
+    font-size:20px;
+}
+
+seria lo mismo hacer esto:
+p,
+ul,
+ol {
+    font.size:20px;
+}*/
+
+.imagen-de-gatos {
+    width: 200px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.bordes-redondeados {
+    border-radius: 20px; /*si queremos circulo escribimos 50%*/
+}
+
+.contenedor-lista {
+    background-color: rgb(149, 218, 149); /*background pinta el fondo de los contenedores*/
+}
+
+/*los id's son identificadores unico para un elemento en la pagina
+*/
+#titulo-app-gatos {
+    font-size: 40px;
+}
+
+div {
+    background-color: rgb(221, 179, 187);
+}
+
+.imagen-segundo-gato {
+    margin: 15px;
+    /*padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px; /*O padding: 20px 15px 5px 10px;*/
+    background-color: rgb(241, 241, 202);
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+/* Selector de atributo
+ img[alt] {
+    border-radius: 50%;
+ }
+ */
+
+ [type="radio"] {
+    margin: 5px;
+ }
+ 
+ [type="checkbox"] {
+    margin: 5px;
+ }
+
+ body {
+    background-color: silver;
+  /*color: chocolate; Afecta a todos los elementos dentro de body*/
+ }
